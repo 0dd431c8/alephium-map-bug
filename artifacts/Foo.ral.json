@@ -1,0 +1,35 @@
+{
+  "version": "v3.6.0",
+  "name": "Foo",
+  "bytecode": "010117010301010009d3c8fa3b191600d1a216000d0cce000100",
+  "codeHash": "f9eba17b4d5238dfafc19ccda4f55a2f092b43795cfc853279f11382f5acb02f",
+  "fieldsSig": {
+    "names": [
+      "bar"
+    ],
+    "types": [
+      "ByteVec"
+    ],
+    "isMutable": [
+      false
+    ]
+  },
+  "eventsSig": [],
+  "functions": [
+    {
+      "name": "doSomething",
+      "paramNames": [
+        "payer"
+      ],
+      "paramTypes": [
+        "Address"
+      ],
+      "paramIsMutable": [
+        false
+      ],
+      "returnTypes": []
+    }
+  ],
+  "constants": [],
+  "enums": []
+}

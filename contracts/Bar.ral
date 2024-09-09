@@ -1,0 +1,8 @@
+Contract Bar() {
+    mapping[U256, U256] stuff
+
+    @using(preapprovedAssets = true, checkExternalCaller = false)
+    pub fn doSomething(payer: Address) -> () {
+        stuff.insert!(payer, 0, 0)
+    }
+}

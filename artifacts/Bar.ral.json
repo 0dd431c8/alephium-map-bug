@@ -1,0 +1,37 @@
+{
+  "version": "v3.6.0",
+  "name": "Bar",
+  "bytecode": "0001402301030101000bd3c8fa3b191600d1a2140a5f5f6d61705f5f305f5f0c4044b10cd20101",
+  "codeHash": "6baa99f59ff66052fc5647583298367be96f797ae1f1f0f662ab1f76a4c5b333",
+  "fieldsSig": {
+    "names": [],
+    "types": [],
+    "isMutable": []
+  },
+  "eventsSig": [],
+  "functions": [
+    {
+      "name": "doSomething",
+      "paramNames": [
+        "payer"
+      ],
+      "paramTypes": [
+        "Address"
+      ],
+      "paramIsMutable": [
+        false
+      ],
+      "returnTypes": []
+    }
+  ],
+  "constants": [],
+  "enums": [],
+  "mapsSig": {
+    "names": [
+      "stuff"
+    ],
+    "types": [
+      "Map[U256,U256]"
+    ]
+  }
+}

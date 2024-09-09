@@ -1,0 +1,6 @@
+Contract Foo(bar: ByteVec) {
+    @using(preapprovedAssets = true, checkExternalCaller = false)
+    pub fn doSomething(payer: Address) -> () {
+        Bar(bar).doSomething{payer -> ALPH: mapEntryDeposit!()}(payer)
+    }
+}
